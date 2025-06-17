@@ -1,12 +1,16 @@
 import java.util.Scanner;
 
-public class Menu {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        boolean running = true;
+public class reportMenu {
+    private Scanner scanner;
 
+    public reportMenu(Scanner scanner) {
+        this.scanner = scanner;
+    }
+
+    public void run() {
+        boolean running = true;
         while (running) {
-            System.out.println("\nQuickCartApp Menu:");
+            System.out.println("\nReport Menu:");
             System.out.println("1) Send Messages");
             System.out.println("2) Show Recently Sent Messages");
             System.out.println("3) Show Full Sent Messages Report");
@@ -57,6 +61,5 @@ public class Menu {
                     System.out.println("Invalid option!");
             }
         }
-        scanner.close();
     }
 }

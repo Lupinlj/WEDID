@@ -49,5 +49,7 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="java" level="project" />
+    <orderEntry type="library" name="json-20250517" level="project" />
   </component>
 </module>

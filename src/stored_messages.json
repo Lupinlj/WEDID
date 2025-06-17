@@ -1,0 +1,14 @@
+[
+  {
+    "MessageID": "msg001",
+    "Message Hash": "abc123...",
+    "Recipient": "user@example.com",
+    "Message": "Hello world"
+  },
+  {
+    "MessageID": "msg002",
+    "Message Hash": "def456...",
+    "Recipient": "another@example.com",
+    "Message": "Another message"
+  }
+]
